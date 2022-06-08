@@ -1,207 +1,194 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi&display=swap');
-
 body {
-    font-family: 'Tiro Devanagari Marathi', serif;
+  font-family: Tiro Devanagari Marathi, serif;
 }
 
 hr {
-    background-color: rgb(191, 191, 191);
-    opacity: 30%;
-    width: 90%;
-
+  background-color: rgb(191, 191, 191);
+  opacity: 30%;
+  width: 90%;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(50, 167, 145);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(50, 167, 145);
 }
 
 .trybewarts-header-logo {
-    height: 100px;
+  height: 100px;
 }
 
 .trybewarts-login {
-    display: flex;
-    align-self: center;
+  display: flex;
+  align-self: center;
 }
 
 .trybewarts-login input {
-    display: flex;
-    margin: 3px 10px;
-    height: 30px;
-    padding: 3px;
-    border-radius: 10px;
-    border-style: hidden;
-    background-color: rgb(240, 240, 240);
+  display: flex;
+  margin: 3px 10px;
+  height: 30px;
+  padding: 3px;
+  border-radius: 10px;
+  border-style: hidden;
+  background-color: rgb(240, 240, 240);
 }
 
 #signin {
-    height: 40px;
-    border-radius: 5px;
-    background-color: rgb(85, 44, 162);
-    font-size: 20px;
-    font-family: 'Tiro Devanagari Marathi', serif;
-    color: aliceblue;
-    width: 100px;
-    margin: 0px 10px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(85, 44, 162);
+  font-size: 20px;
+  color: aliceblue;
+  width: 100px;
+  margin-right: 10px;
 }
 
 main {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 #evaluation-form {
-    margin: 20px 0px;
-    display: flex;
-    justify-items: center;
-    flex-direction: column;
-    width: 675px;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  width: 675px;
+  border-radius: 10px;
 }
 
-
-
 #submit-btn {
-    width: 675px;
-    height: 40px;
-    border-radius: 5px;
-    background-color: rgb(85, 44, 162);
-    font-size: 20px;
-    font-family: 'Tiro Devanagari Marathi', serif;
-    color: aliceblue;
+  width: 675px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(85, 44, 162);
+  font-size: 20px;
+  color: aliceblue;
 }
 
 #trybewarts-forms-logo {
-    margin: 20px 0px;
-    display: flex;
-    height: 500px;
+  margin-top: 20px;
+  display: flex;
+  height: 500px;
 }
 
-#input-name,
-#input-lastname,
-#input-email {
-    display: flex;
-    width: 45%;
-    margin: 3px;
-    height: 35px;
-    padding: 3px;
-    border-radius: 10px;
-    border-style: hidden;
-    background-color: rgb(240, 240, 240);
+#input-name , #input-lastname , #input-email {
+  display: flex;
+  width: 45%;
+  margin: 3px;
+  height: 35px;
+  padding: 3px;
+  border-radius: 10px;
+  border-style: hidden;
+  background-color: rgb(240, 240, 240);
 }
 
 #house {
-    width: 70%;
-    border-style: hidden;
+  width: 70%;
+  border-style: hidden;
 }
 
 #forms-top {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 5px;
 }
 
 #forms-top div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 45%;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+  border-radius: 10px;
+  background-color: white;
+  padding: 3px;
 }
 
 #forms-mid {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 5px
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5px;
 }
 
 #family input {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 #conteudo {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 60%;
+  display: flex;
+  flex-flow: row wrap;
+  width: 60%;
 }
 
 .checkbox {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .subject {
-    margin-left: 10px;
-    margin-right: 5px;
-    margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-top: 5px;
 }
 
 #forms-bot {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 3px;
-    padding: 3px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 3px;
+  padding: 3px;
 }
 
 #rate {
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin: 5px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 5px;
 }
 
 #text {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 5px;
-    width: 100%;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  width: 100%;
+  align-items: center;
 }
 
 #agreement {
-    margin: 0px 10px;
+  margin-left: 10px;
 }
 
 .textarea {
-    width: 100%;
+  width: 100%;
 }
 
 #checkbox-count {
-    display: flex;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
-#counter{
-   margin-left: 250px;
+#counter {
+  margin-left: 250px;
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: grey;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-    height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 50px;
 }
