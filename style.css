@@ -54,12 +54,20 @@ main {
   justify-content: space-around;
 }
 
-#evaluation-form {
+#form {
   margin-top: 20px;
   display: flex;
   justify-items: center;
   flex-direction: column;
   width: 675px;
+  border-radius: 10px;
+}
+
+#evaluation-form {
+  margin-top: 20px;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
   border-radius: 10px;
 }
 
