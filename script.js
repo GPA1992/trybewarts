@@ -87,7 +87,7 @@ function getObservation() {
 //
 function newForm() {
   const form = document.getElementById('evaluation-form');
-  form.innerHTML ='';
+  form.innerHTML = '';
   const mainForm = document.getElementById('form');
   const formNew = document.createElement('form');
   formNew.id = 'form-data';
